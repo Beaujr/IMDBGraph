@@ -1,0 +1,147 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(http://i.huffpost.com/gen/1623877/thumbs/o-HOLLYWOOD-SIGN-facebook.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.top-buffer { margin-top:10px; }
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.search {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.loading {
+    font-size: 2em;
+}
+.link {
+    stroke-width: 2px;
+}
+.nodetext {
+    pointer-events: none;
+    font: 16px sans-serif;
+    stroke: #fff;
+    stroke-width: .5px;
+}
+.type1 {
+    stroke: #6d856e;
+    fill:#0868AC;
+}
+.type1.circle {
+    fill-opacity: .5;
+}
+.type1.nodetext {
+    stroke: inherit;
+    fill:#2B8CBE;
+}
+.type2 {
+    stroke:#5e735f;
+    fill:#ddd;
+}
+.type2.nodetext {
+    fill:#aaa;
+    stroke: inherit;
+}
+.type2.link {
+    stroke: #7BCCC4;
+    stroke-dasharray: 1, 1;
+}
+.type2.circle {
+    fill-opacity: .5;
+}
+.type3 {
+    stroke:#0868AC;
+    fill:#74C476;
+}
+.type3.nodetext {
+    stroke: inherit;
+}
+.type3.link {
+    stroke: #BAE4BC;
+}
+.type3.circle {
+    fill-opacity: .5;
+}
